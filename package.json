@@ -1,0 +1,19 @@
+{
+  "name": "backend-course-2025-4",
+  "version": "1.0.0",
+  "description": "Lab 4 - simple HTTP server (variant 7: weather.json)",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js -i ./data/weather.json -h 127.0.0.1 -p 3000",
+    "dev": "nodemon --watch . --exec \"node main.js -i ./data/weather.json -h 127.0.0.1 -p 3000\""
+  },
+  "dependencies": {
+    "commander": "^11.1.0",
+    "fast-xml-parser": "^4.5.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "author": "Your Name bc2025-4",
+  "license": "MIT"
+}
